@@ -1,0 +1,61 @@
+body {
+  /* background: #0F2027;  fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);*/
+  background-image : linear-gradient(to left, #2C5364, #203A43, #0F2027);
+  padding: 30px;
+}
+.App {
+  text-align: center;
+  width: 900px;
+  margin: 10px auto; 
+}
+.StudentTenthMarkSheet{
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  padding: 20px;
+}
+
+form {
+  display: inline-block;
+}
+form label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+form div {
+  margin: 10px;
+}
+.colonSpace {
+margin-right: 10px;
+margin-left: 10px;
+}
+.innerLabel {
+  width: auto;
+}
+.resultSpan {
+  display: inline-block;
+  width: 150px;
+}
+fieldset {
+  border: 2px dashed #0F2027;
+  margin: 10px;
+}
+legend {
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  padding: 5px 20px 5px 20px;
+  text-align: left;
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+  border-radius: 15px;
+  box-shadow: 10px 10px 30px #0F2027;
+  color: white;
+}
+button {
+  width: 30%;
+  height: 40px;
+  border-radius: 15px;
+  border: 0px;
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027);
+  color: white;
+  font-weight: 600;
+}
